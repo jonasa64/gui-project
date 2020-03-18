@@ -14,8 +14,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SearchComponent } from './search/search.component';
 import { FurnitureComponent } from './furniture/furniture.component';
-import { FurnitureService } from './services/furniture.service'
-import { SearchPipe } from './pipes/search.pipe'
+import { FurnitureService } from './services/furniture.service';
+import { SearchPipe } from './pipes/search.pipe';
+import { ShowroomPipe } from './pipes/showroom.pipe'
 import { from } from 'rxjs';
 
 @NgModule({
@@ -23,7 +24,8 @@ import { from } from 'rxjs';
     AppComponent,
     SearchComponent,
     FurnitureComponent,
-    SearchPipe
+    SearchPipe,
+    ShowroomPipe
   ],
   imports: [
     BrowserModule,
