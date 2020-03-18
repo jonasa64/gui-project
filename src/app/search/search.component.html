@@ -40,7 +40,7 @@
 
     <mat-form-field>
     <mat-label>Showroom</mat-label>
-    <mat-select>
+    <mat-select [(value)]="value">
        
         <mat-option value="SE, Stockholms Auktionsverk, Norrköping">SE, Stockholms Auktionsverk, Norrköping</mat-option>
         <mat-option value="DK, Vejle, Dandyvej">DK, Vejle, Dandyvej</mat-option>
@@ -82,7 +82,7 @@ tid
 </div>
 </div>
 
-<app-furniture *ngFor="let furnitureElement of furnitures | search : searchValue"
+<app-furniture *ngFor="let furnitureElement of furnitures | search : searchValue | Showroom : value"
 [funiture]="furnitureElement"></app-furniture>
 
 

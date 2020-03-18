@@ -8,6 +8,7 @@ import { FurnitureService } from '../services/furniture.service';
 export class SearchComponent implements OnInit {
   furnitures = [];
   searchValue: string;
+  value: string;
 
 
   constructor(private furnitureService: FurnitureService) { }
