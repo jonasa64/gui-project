@@ -1,6 +1,6 @@
 <div class="container">
     <mat-form-field class="example-full-width" >
-        <input matInput   placeholder="Søg på Lauritz"/>
+        <input matInput   placeholder="Søg på Lauritz" [(ngModel)]="searchValue"/>
     </mat-form-field><span><i class="fa fa-search"></i></span>
 </div>
 
@@ -16,12 +16,14 @@
     </mat-form-field>
 
     <mat-form-field class="select">
-    <mat-label>Vurdering</mat-label>
+    <mat-label>Vurdering</mat-label> 
     <mat-select>
-        <mat-option>None</mat-option>
-        <mat-option value="option1">Option 1</mat-option>
-        <mat-option value="option2">Option 2</mat-option>
-        <mat-option value="option3">Option 3</mat-option>
+       
+         <mat-option value="< 1000">< 1000</mat-option>
+        <mat-option value="1500 - 3000">1500 - 3000</mat-option>
+        <mat-option value="3500 - 7000">3500 - 7000</mat-option>
+        <mat-option value="7500 - 9500">7500 -  9500</mat-option>
+           <mat-option value="> 10000">>10000</mat-option>
     </mat-select>
     </mat-form-field>
 
@@ -29,19 +31,23 @@
     <mat-label>Tid</mat-label>
     <mat-select>
         <mat-option>None</mat-option>
-        <mat-option value="option1">Option 1</mat-option>
+          <mat-option value="option1">Option 1</mat-option>
         <mat-option value="option2">Option 2</mat-option>
         <mat-option value="option3">Option 3</mat-option>
+   
     </mat-select>
     </mat-form-field>
 
     <mat-form-field>
     <mat-label>Showroom</mat-label>
     <mat-select>
-        <mat-option>None</mat-option>
-        <mat-option value="option1">Option 1</mat-option>
-        <mat-option value="option2">Option 2</mat-option>
-        <mat-option value="option3">Option 3</mat-option>
+       
+        <mat-option value="SE, Stockholms Auktionsverk, Norrköping">SE, Stockholms Auktionsverk, Norrköping</mat-option>
+        <mat-option value="DK, Vejle, Dandyvej">DK, Vejle, Dandyvej</mat-option>
+        <mat-option value="SE, Stockholms Auktionsverk, Stockholm Ö">SE, Stockholms Auktionsverk, Stockholm Ö</mat-option>
+        <mat-option value="DK, Næstved, Gl. Holstedvej">DK, Næstved, Gl. Holstedvej</mat-option>
+        <mat-option value="DK, Roskilde, Store Hedevej">DK, Roskilde, Store Hedevej</mat-option>
+        <mat-option value="DK, Odense, Kratholmvej">DK, Odense, Kratholmvej</mat-option>
     </mat-select>
     </mat-form-field>
 </div>
@@ -54,5 +60,30 @@
     <mat-checkbox class="check">Vis brugte varer</mat-checkbox>
     <mat-checkbox>Nyproducerede varer</mat-checkbox>
 </div>
+
+<div class="container">
+<div class="row ustify-content-center">
+<div class="col-2 border">
+title
+</div>
+<div class="col-2 border">
+ Beskrivelse
+</div>
+<div class="col-2 border">
+Vurdering
+</div>
+<div class="col-2 border">
+Showroom 
+</div>
+<div class="col-2 border">
+tid
+</div>
+
+</div>
+</div>
+
+<app-furniture *ngFor="let furnitureElement of furnitures | search : searchValue"
+[funiture]="furnitureElement"></app-furniture>
+
 
 
