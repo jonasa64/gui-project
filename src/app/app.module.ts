@@ -18,7 +18,8 @@ import { FurnitureService } from './services/furniture.service';
 import { SearchPipe } from './pipes/search.pipe';
 import { ShowroomPipe } from './pipes/showroom.pipe';
 import { CategoryPipe } from './pipes/category.pipe';
-import { from } from 'rxjs';
+import { ValationPipe } from './pipes/valuation.pipe'
+import { TimehPipe } from './pipes/time.pipe'
 
 @NgModule({
   declarations: [
@@ -27,7 +28,9 @@ import { from } from 'rxjs';
     FurnitureComponent,
     SearchPipe,
     ShowroomPipe,
-    CategoryPipe
+    CategoryPipe,
+    ValationPipe,
+    TimehPipe
   ],
   imports: [
     BrowserModule,
