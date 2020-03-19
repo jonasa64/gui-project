@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 
 export class CategoryPipe implements PipeTransform {
-    transform(itmes: any[], Kategori: string) {
+    transform(itmes: any, Kategori: string) {
         if (!Kategori) {
             return itmes;
         }

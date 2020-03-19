@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 export class ValationPipe implements PipeTransform {
 
-    transform(itmes: any[], vurdering: string) {
+    transform(itmes: any, vurdering: string) {
 
 
         if (!vurdering) {

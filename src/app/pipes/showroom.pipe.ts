@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 
 export class ShowroomPipe implements PipeTransform {
-    transform(itmes: any[], value: string) {
+    transform(itmes: any, value: string) {
         if (!value) {
             return itmes;
         }
