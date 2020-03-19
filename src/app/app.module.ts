@@ -16,7 +16,8 @@ import { SearchComponent } from './search/search.component';
 import { FurnitureComponent } from './furniture/furniture.component';
 import { FurnitureService } from './services/furniture.service';
 import { SearchPipe } from './pipes/search.pipe';
-import { ShowroomPipe } from './pipes/showroom.pipe'
+import { ShowroomPipe } from './pipes/showroom.pipe';
+import { CategoryPipe } from './pipes/category.pipe';
 import { from } from 'rxjs';
 
 @NgModule({
@@ -25,7 +26,8 @@ import { from } from 'rxjs';
     SearchComponent,
     FurnitureComponent,
     SearchPipe,
-    ShowroomPipe
+    ShowroomPipe,
+    CategoryPipe
   ],
   imports: [
     BrowserModule,
