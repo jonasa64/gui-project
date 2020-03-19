@@ -7,9 +7,11 @@ export class FurnitureService {
                 Beskrivelse: "KARMSTOL, samtida, ryggstöd i trä, stomme i pulverlackerad stål, klädd textilsits, sitthöjd ca 43 cm",
                 Vurdering: 1000,
                 Showroom: "SE, Stockholms Auktionsverk, Norrköping",
-                tid: "18-03-2020 10:00",
+                tid: "19-03-2020 15:00",
                 isDelux: false,
-                Kategori: "ryggstød"
+                Kategori: "ryggstød",
+                Vurderingsort: '1000 - 1499',
+                tidFilter: 'slutter inden for 12 timer'
             },
             {
                 title: "Hyndesæt til Hans J. Wegners Y- stol. Cognacfarvet læder. (6)",
@@ -17,9 +19,11 @@ export class FurnitureService {
                 Beskrivelse: "Hyndesæt til Hans J. Wegners Y- stol. Sæt på seks hynder, betrukket med cognacfarvet læder. Ca. 2,5 cm i",
                 Vurdering: 2000,
                 Showroom: "DK, Vejle, Dandyvej",
-                tid: "18-03-2020 13:42",
+                tid: "19-03-2020 18:42",
                 isDelux: false,
-                Kategori: "Hyndesæt"
+                Kategori: "Hyndesæt",
+                Vurderingsort: '1500 - 3000',
+                tidFilter: 'slutter inden for 12 timer'
             },
             {
                 title: "Arne Jacobsen. Et sæt på seks stole 'Syveren', model 3107, sort læder. Ny siddehøjde 46,5 cm. (6)",
@@ -27,9 +31,11 @@ export class FurnitureService {
                 Beskrivelse: "Arne Jacobsen (1902-1971). Et sæt på seks stole 'Syveren', model 3107, stel af forkromet stålrør, produceret af Fritz Hansen, nybetrukket med sort læder. Ny siddehøjde 46,5 cm.",
                 Vurdering: 18000,
                 Showroom: "DK, Vejle, Dandyvej",
-                tid: "18-03-2020 13:46",
+                tid: "19-03-2020 19:46",
                 isDelux: false,
-                Kategori: "stol"
+                Kategori: "stol",
+                Vurderingsort: '> 10000',
+                tidFilter: 'slutter inden for 24 timer'
             },
             {
                 title: "Hans J. Wegner. 'Den kinesiske stol' / 'Kinastolen', sortlakeret",
@@ -37,9 +43,11 @@ export class FurnitureService {
                 Beskrivelse: "Hans J. Wegner 1914-2007. 'Den kinesiske stol' / 'Kinastolen', med stel af sortlakeret træ, sæde med original løs vendbar 'red label' sædehynde, betrukket med knapsyet sort læder. Formgivet 1943. Fremstillet hos Fritz Hansen, model FH4283. H. 82/44 cm",
                 Vurdering: 14000,
                 Showroom: "DK, Vejle, Dandyvej",
-                tid: "18-03-2020 14:58",
+                tid: "20-03-2020 14:58",
                 isDelux: true,
-                Kategori: "stol"
+                Kategori: "stol",
+                Vurderingsort: '> 10000',
+                tidFilter: 'slutter inden for 24 timer'
             },
             {
                 title: "Stolar 1 par i Louis XVI-stil",
@@ -47,9 +55,11 @@ export class FurnitureService {
                 Beskrivelse: "STOLAR, 1 par, Louis XVI-stil, omkring 1900, träskuren dekor, kannelerade ben, sitthöjd 43 cm",
                 Vurdering: 1700,
                 Showroom: "SE, Stockholms Auktionsverk, Stockholm Ö",
-                tid: "18-03-2020 16:16",
+                tid: "20-03-2020 16:16",
                 isDelux: false,
-                Kategori: "stol"
+                Kategori: "stol",
+                Vurderingsort: '1500 - 2999',
+                tidFilter: 'slutter inden for 24 timer'
             },
             {
                 title: "Arne Jacobsen. Seks stole model 3107 'Syveren' (6)",
@@ -59,7 +69,9 @@ export class FurnitureService {
                 Showroom: "DK, Næstved, Gl. Holstedvej",
                 tid: "27-03-2020 17:45",
                 isDelux: false,
-                Kategori: "stol"
+                Kategori: "stol",
+                Vurderingsort: '1500 - 2999',
+                tidFilter: 'over 24 timer tilbage'
             },
             {
                 title: "Deszine Talks. Hyndesæt til Hans J. Wegners Y- stol. Sort læder. (6)",
@@ -69,7 +81,9 @@ export class FurnitureService {
                 Showroom: "DK, Roskilde, Store Hedevej",
                 tid: "27-03-2020 18:00",
                 isDelux: false,
-                Kategori: "Hyndesæt"
+                Kategori: "Hyndesæt",
+                Vurderingsort: '1500 - 2999',
+                tidFilter: 'over 24 timer tilbage'
             },
             {
                 title: "Deszine Talks. Læderovertræk til Arne Jacobsens 7´er stole (6)",
@@ -79,7 +93,9 @@ export class FurnitureService {
                 Showroom: "DK, Roskilde, Store Hedevej",
                 tid: "28-03-2020 18:32",
                 isDelux: false,
-                Kategori: "Hyndesæt"
+                Kategori: "Hyndesæt",
+                Vurderingsort: '3000 - 6999',
+                tidFilter: 'over 24 timer tilbage'
             },
             {
                 title: "Kai Kristiansen. 8 armstole af teak / uld, model 42 (8)",
@@ -89,7 +105,9 @@ export class FurnitureService {
                 Showroom: "DK, Odense, Kratholmvej",
                 tid: "28-03-2020 19:25",
                 isDelux: false,
-                Kategori: "stol"
+                Kategori: "stol",
+                Vurderingsort: '> 10000',
+                tidFilter: 'over 24 timer tilbage'
             },
             {
                 title: "Arne Jacobsen. Fire 'Syveren' stole (4)",
@@ -99,7 +117,9 @@ export class FurnitureService {
                 Showroom: "DK, Roskilde, Store Hedevej",
                 tid: "28-03-2020 19:41",
                 isDelux: false,
-                Kategori: "stol"
+                Kategori: "stol",
+                Vurderingsort: '1500 - 2999',
+                tidFilter: 'over 24 timer tilbage'
             },
             {
                 title: "Puderstol",
@@ -109,7 +129,9 @@ export class FurnitureService {
                 Showroom: "SE, Stockholms Auktionsverk, Stockholm Ö",
                 tid: "30-03-2020 19:47",
                 isDelux: false,
-                Kategori: "stol"
+                Kategori: "stol",
+                Vurderingsort: '1000 - 1499',
+                tidFilter: 'over 24 timer tilbage'
 
             },
         ];
