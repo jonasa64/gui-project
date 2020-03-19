@@ -6,6 +6,11 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 export class TimehPipe implements PipeTransform {
     transform(itmes: any[], time: string) {
+
+        if (!itmes) {
+            return 'No results found';
+        }
+
         if (!time) {
             return itmes;
         }
