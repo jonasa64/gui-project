@@ -17,23 +17,24 @@
 
     <mat-form-field class="select">
     <mat-label>Vurdering</mat-label> 
-    <mat-select>
+    <mat-select [(value)]="vurdering">
        
          <mat-option value="< 1000">< 1000</mat-option>
-        <mat-option value="1500 - 3000">1500 - 3000</mat-option>
-        <mat-option value="3500 - 7000">3500 - 7000</mat-option>
-        <mat-option value="7500 - 9500">7500 -  9500</mat-option>
-           <mat-option value="> 10000">>10000</mat-option>
+          <mat-option value="1000 - 1499"> 1000 - 1499 </mat-option>
+        <mat-option value="1500 - 2999">1500 - 2999</mat-option>
+        <mat-option value="3000 - 6999">3000 - 6999</mat-option>
+        <mat-option value="7000 - 9999">7000 -  9999</mat-option>
+           <mat-option value="> 10000">> 10000</mat-option>
     </mat-select>
     </mat-form-field>
 
     <mat-form-field class="select">
     <mat-label>Tid</mat-label>
-    <mat-select>
-        <mat-option>None</mat-option>
-          <mat-option value="option1">Option 1</mat-option>
-        <mat-option value="option2">Option 2</mat-option>
-        <mat-option value="option3">Option 3</mat-option>
+    <mat-select [(value)]="tid">
+       
+          <mat-option value="slutter inden for 12 timer">slutter inden for 12 timer</mat-option>
+        <mat-option value="slutter inden for 24 timer">slutter inden for 24 timer</mat-option>
+       
    
     </mat-select>
     </mat-form-field>
@@ -82,8 +83,9 @@ tid
 </div>
 </div>
 
-<app-furniture *ngFor="let furnitureElement of furnitures | search : searchValue | Showroom : value | category : Kategori"
+<app-furniture *ngFor="let furnitureElement of furnitures | search : searchValue | Showroom : value | category : Kategori | valuation : vurdering | time : tid"
 [funiture]="furnitureElement"></app-furniture>
+
 
 
 
