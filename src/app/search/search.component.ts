@@ -9,15 +9,11 @@ export class SearchComponent implements OnInit {
   furnitures = [];
   searchValue: string;
   value: string;
+  Kategori: string;
 
 
   constructor(private furnitureService: FurnitureService) { }
 
-
-  /*onSearch() {
-    console.log(this.searchValue)
-    this.furnitures = this.furnitureService.getFurnitures().filter((el) => el.title.includes(this.searchValue));
-  }*/
 
   ngOnInit(): void {
     this.furnitures = this.furnitureService.getFurnitures();

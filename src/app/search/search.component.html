@@ -7,11 +7,11 @@
 <div class="container">
     <mat-form-field class="select">
     <mat-label>Kategori</mat-label>
-    <mat-select>
-        <mat-option>None</mat-option>
-        <mat-option value="option1">Option 1</mat-option>
-        <mat-option value="option2">Option 2</mat-option>
-        <mat-option value="option3">Option 3</mat-option>
+    <mat-select [(value)]="Kategori">
+       
+        <mat-option value="ryggstød">ryggstød</mat-option>
+        <mat-option value="Hyndesæt">Hyndesæt</mat-option>
+        <mat-option value="stol">stol</mat-option>
     </mat-select>
     </mat-form-field>
 
@@ -82,7 +82,7 @@ tid
 </div>
 </div>
 
-<app-furniture *ngFor="let furnitureElement of furnitures | search : searchValue | Showroom : value"
+<app-furniture *ngFor="let furnitureElement of furnitures | search : searchValue | Showroom : value | category : Kategori"
 [funiture]="furnitureElement"></app-furniture>
 
 
