@@ -86,6 +86,11 @@ tid
 <app-furniture *ngFor="let furnitureElement of furnitures | search : searchValue | Showroom : value | category : Kategori | valuation : vurdering | time : tid"
 [funiture]="furnitureElement"></app-furniture>
 
+<div class="container" *ngIf="(furnitures | search : searchValue | Showroom : value | category : Kategori | valuation : vurdering | time : tid).length === 0">
+
+<p><strong> No items found </strong></p>
+
+</div>
 
 
 
