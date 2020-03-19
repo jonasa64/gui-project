@@ -10,6 +10,8 @@ export class SearchComponent implements OnInit {
   searchValue: string;
   value: string;
   Kategori: string;
+  vurdering: string;
+  tid: string;
 
 
   constructor(private furnitureService: FurnitureService) { }
