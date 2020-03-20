@@ -1,5 +1,19 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
+
+/**
+ *
+ * Pipe for filting by the valuation
+ * no  valuation  it returns the items
+ *
+ * params
+ *
+ * itmes : any
+ *  searchValue : string
+ *
+ *
+ */
+
 @Pipe({
     name: "valuation"
 })

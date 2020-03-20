@@ -1,5 +1,18 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
+/**
+ *
+ * Pipe for filting by the search input
+ * no  search word  it returns the items
+ *
+ * params
+ * 
+ * itmes : any
+ *  searchValue : string
+ * 
+ * 
+ */
+
 @Pipe({
     name: "search"
 })

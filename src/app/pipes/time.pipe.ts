@@ -1,5 +1,19 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
+
+/**
+ *
+ * Pipe for filting by the time 
+ * no  time selected it returns the items
+ *
+ * params
+ *
+ * itmes : any
+ * time : string
+ *
+ *
+ */
+
 @Pipe({
     name: "time"
 })

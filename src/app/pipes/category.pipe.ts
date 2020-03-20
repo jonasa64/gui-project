@@ -1,5 +1,15 @@
 import { Pipe, PipeTransform } from '@angular/core';
-
+/**
+ * 
+ * Pipe for filting the caregory
+ * no  caregory selected it returns the items
+ * 
+ * params
+ * 
+ * itmes : any
+ * searchValue : string
+ * 
+ */
 @Pipe({
     name: "category"
 })
