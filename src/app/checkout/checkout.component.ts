@@ -1,58 +1,47 @@
-import {
-  Component, OnInit,
-  AfterViewInit,
-  OnDestroy,
-  ViewChild,
-  ElementRef,
-  ChangeDetectorRef
-} from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { CardValidator } from './cardValidtor';
 
-import { NgForm } from '@angular/forms';
+
 
 @Component({
   selector: 'app-checkout',
   templateUrl: './checkout.component.html',
   styleUrls: ['./checkout.component.css']
 })
-export class CheckoutComponent implements OnInit, AfterViewInit, OnDestroy {
-  @ViewChild('cardInfo') cardInfo: ElementRef
+export class CheckoutComponent implements OnInit {
+
+  form: FormGroup;
+
+  constructor(private formBulider: FormBuilder) {
+    this.form = this.formBulider.group({
+      firstName: ['', Validators.required],
+      lastName: ['', Validators.required],
+      username: ['', Validators.required],
+      email: [''],
+      address: ['', Validators.required],
+      address2: [''],
+      country: ['', Validators.required],
+      state: ['', Validators.required],
+      zip: ['', Validators.required],
+      billingAddress: ['', Validators.required],
+      paymentMethod: ['', Validators.required],
+      name: ['', Validators.required],
+      creditCardNumber: ['', Validators.compose([Validators.required, CardValidator.validateCardNumber])],
+      Expiration: ['', Validators.required],
+      cvv: ['', Validators.required],
 
 
-  card: any;
-  cardHandler = this.onChange.bind(this);
-  error: string;
-  constructor(private cd: ChangeDetectorRef) { }
+    });
 
-  ngAfterViewInit() {
-    this.card = elements.create('card');
-    this.card.mount(this.cardInfo.nativeElement);
-
-    this.card.addEventListener('change', this.cardHandler);
   }
 
-  ngOnDestroy() {
-    this.card.removeEventListener('change', this.cardHandler);
-    this.card.destroy();
-  }
-
-  onChange({ error }) {
-    if (error) {
-      this.error = error.message;
-    } else {
-      this.error = null;
+  onSubmit() {
+    if (this.form.valid) {
+      console.log('valid')
     }
-    this.cd.detectChanges();
-  }
 
-  async onSubmit(form: NgForm) {
-    const { token, error } = await stripe.createToken(this.card);
 
-    if (error) {
-      console.log('Something is wrong:', error);
-    } else {
-      console.log('Success!', token);
-      // ...send the token to the your backend to process the charge
-    }
   }
 
   ngOnInit(): void {
