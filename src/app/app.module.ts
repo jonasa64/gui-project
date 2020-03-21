@@ -20,19 +20,21 @@ import { SearchPipe } from './pipes/search.pipe';
 import { ShowroomPipe } from './pipes/showroom.pipe';
 import { CategoryPipe } from './pipes/category.pipe';
 import { ValationPipe } from './pipes/valuation.pipe'
-import { TimehPipe } from './pipes/time.pipe'
+import { TimehPipe } from './pipes/time.pipe';
+import { FrontPageComponent } from './front-page/front-page.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductCarouselComponent
+    ProductCarouselComponent,
     SearchComponent,
     FurnitureComponent,
     SearchPipe,
     ShowroomPipe,
     CategoryPipe,
     ValationPipe,
-    TimehPipe
+    TimehPipe,
+    FrontPageComponent
   ],
   imports: [
     BrowserModule,
