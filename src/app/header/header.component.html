@@ -1,0 +1,28 @@
+<nav id="header" class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+  <a routerLink="/" class="navbar-brand" style = "position:absolute; left: 0px;">
+    <img src="../assets/logo.png" alt ="logo" id="logo">
+  </a>
+  <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+  </button>
+
+  <div  id="navbarSupportedContent" >
+    <ul class="navbar-nav mr-auto" >
+      <li class="nav-item">
+        <a class="nav-link" style = "position:absolute; right: 50px; top: 0px; color:black;" [routerLink]="['/link1']" [routerLinkActive]="['active']"> Link1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style = "position:absolute; right: 100px; top: 0px; color:black;" [routerLink]="['/link2']" [routerLinkActive]="['active']"> Link2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style = "position:absolute; right: 150px; top: 0px; color:black;" [routerLink]="['/link3']" [routerLinkActive]="['active']"> Link3</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" style = "position:absolute; right: 200px; top: 0px; color:black;"[routerLink]="['/link4']" [routerLinkActive]="['active']"> Log in</a>
+      </li>
+      
+    </ul>
+    
+    
+  </div>
+</nav>

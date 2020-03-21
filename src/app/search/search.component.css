@@ -1,0 +1,19 @@
+.example-full-width {
+    width: 100%;
+    min-width: 150px;
+    max-width: 810px;
+  }
+
+  .container {
+      margin-bottom: 10px;
+  }
+
+  .select{
+      margin-right: 35px;
+  }
+
+  .check{
+      margin-right: 25px;
+      max-width: 50px;
+  }
+
