@@ -11,6 +11,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProductCarouselComponent } from './product-carousel/product-carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SearchComponent } from './search/search.component';
 import { FurnitureComponent } from './furniture/furniture.component';
@@ -24,6 +25,7 @@ import { TimehPipe } from './pipes/time.pipe'
 @NgModule({
   declarations: [
     AppComponent,
+    ProductCarouselComponent
     SearchComponent,
     FurnitureComponent,
     SearchPipe,
