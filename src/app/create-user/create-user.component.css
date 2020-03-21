@@ -1,0 +1,19 @@
+.create-user {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.input-group-text {
+  background: #EFE8DE;
+  color: #7E6036;
+}
+
+.btn.btn-primary.btn-block {
+  background: #7E6036;
+  border: #7E6036;
+}
+
+.log-in-text {
+  color: #7E6036;
+}

@@ -20,10 +20,8 @@ import { CategoryPipe } from './pipes/category.pipe';
 import { ValationPipe } from './pipes/valuation.pipe'
 import { TimehPipe } from './pipes/time.pipe'
 import { CreateUserComponent } from './create-user/create-user.component';
-<<<<<<< Updated upstream
 import { FrontPageComponent } from './front-page/front-page.component'
-=======
->>>>>>> Stashed changes
+
 
 @NgModule({
   declarations: [
@@ -36,7 +34,8 @@ import { FrontPageComponent } from './front-page/front-page.component'
     CategoryPipe,
     ValationPipe,
     TimehPipe,
-    CreateUserComponent
+    CreateUserComponent,
+    FrontPageComponent
   ],
   imports: [
     BrowserModule,
