@@ -1,0 +1,106 @@
+* {
+  font-family: "Lato", Arial, Helvetica, sans-serif !important;
+}
+
+.row {
+  width: 100% !important;
+  margin-left: 0;
+}
+
+.menu {
+  text-align: center;
+}
+
+.front-pic {
+  width: 100%;
+  opacity: 0.6;
+}
+
+.category {
+  font-weight: bold;
+  border-top: 0px;
+  background-color: #EFE8DE;
+}
+
+.form-control.form-control-sm.w-75.list-group-item {
+  border: 0px;
+  padding: 0;
+  font-size: 1rem;
+  width: auto !important;
+}
+
+.fa-search {
+  text-align: right;
+}
+
+.start {
+  color: white;
+  border-radius: 5px;
+  padding: 50px;
+  bottom: 40%;
+}
+
+.btn {
+   background-color: #7E6036;
+   border: 0;
+   font-size: 1.7rem;
+}
+
+.byd {
+   margin-bottom: 2rem;
+   opacity: 1;
+   text-shadow: 0 0 10px black;
+   font-family: "Oswald", sans-serif !important;
+   text-transform: uppercase;
+}
+
+.btn.btn-primary.btn-lg.mt-3 {
+   margin: 0 1rem;
+   width: 10rem;
+   padding: 0.4rem;
+   box-shadow: 0 0 5px black;
+   text-shadow: 0 0 5px black;
+   font-family: "Lato", sans-serif;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
+.menu {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card {
+   min-height: 425px;
+   margin: 4rem 0 6rem;  
+}
+
+.svg-inline--fa.fa-gift.fa-w-16.fa-4x,
+.svg-inline--fa.fa-book-open.fa-w-18.fa-4x,
+.svg-inline--fa.fa-gavel.fa-w-16.fa-4x,
+.svg-inline--fa.fa-user-friends.fa-w-20.fa-4x {
+   margin: 5rem auto;
+   color: #7E6036;
+}
+
+.card-title {
+   font-weight: bold;
+}
+
+a.card-text {
+   color: black;
+}
+
+a.card-text:hover {
+   text-decoration: none;
+}
+
+.card-title:hover {
+   text-decoration: underline !important;
+}
+
+.bg-hover:hover {
+  background-color: #EFE8DE;
+  transition: ease-in 0.5s;
+}

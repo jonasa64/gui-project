@@ -1,0 +1,44 @@
+.bg-light {
+    background-color: #B69E7C !important;
+    border-radius: 0;
+  }
+  
+  .navbar {
+    height: 100px;
+  }
+  
+  .navbar-brand {
+    font-size: 0;
+  
+  }
+  
+  #navbarNav {
+    justify-content: end;
+  }
+  
+  img.logo {
+    width: 125px;
+    margin-left: 1rem;
+    height: 50px;
+  }
+
+  .footer {
+    background-color: #B69E7C;
+ }
+ 
+ .copyright {
+    text-align: center;
+    padding-top: 2rem;
+ }
+ 
+  .footer-logo {
+    margin-left: 0 !important;
+ }
+ 
+ .logo-col {
+    margin-left: 1rem;
+ }
+ 
+ .extra {
+   margin-top: 6.7rem !important;
+ }
