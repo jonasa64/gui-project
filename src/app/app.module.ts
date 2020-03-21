@@ -22,7 +22,8 @@ import { ShowroomPipe } from './pipes/showroom.pipe';
 import { CategoryPipe } from './pipes/category.pipe';
 import { ValationPipe } from './pipes/valuation.pipe'
 import { TimehPipe } from './pipes/time.pipe';
-import { CheckoutComponent } from './checkout/checkout.component'
+import { CheckoutComponent } from './checkout/checkout.component';
+import { SingleProductComponent } from './single-product/single-product.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { CheckoutComponent } from './checkout/checkout.component'
     CategoryPipe,
     ValationPipe,
     TimehPipe,
-    CheckoutComponent
+    CheckoutComponent,
+    SingleProductComponent
   ],
   imports: [
     BrowserModule,
