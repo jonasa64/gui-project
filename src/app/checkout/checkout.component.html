@@ -9,8 +9,10 @@
             <input type="text" class="form-control" id="firstName" placeholder="" value="" required 
             formControlName="firstName">
             <div class="invalid-feedback" *ngIf="form.controls.firstName.touched
-&& !form.controls.firstName.valid">
+&& form.controls.firstName.errors">
+<div *ngIf="form.get('firstName').hasError('required')">
               Valid first name is required.
+              </div>
             </div>
           </div>
           <div class="col-md-6 mb-3">
@@ -154,7 +156,13 @@
                       <div *ngIf="form.controls.creditCardNumber.touched
 && form.controls.creditCardNumber.errors">
 
-            
+            <div *ngIf="form.get('creditCardNumber').hasError('invalidCreditCard')">
+            card number is invalid
+            </div>
+
+            <div *ngIf="form.get('creditCardNumber').hasError('required')">
+            card number is required
+            </div>
 
             </div>
           </div>
