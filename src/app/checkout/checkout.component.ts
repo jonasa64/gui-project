@@ -38,7 +38,9 @@ export class CheckoutComponent implements OnInit {
 
   onSubmit() {
     if (this.form.valid) {
-      console.log('valid')
+      console.log('valid');
+    } else {
+      console.log("incalid", this.form.get("creditCardNumber").hasError('invalidCreditCard'));
     }
 
 
