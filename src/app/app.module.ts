@@ -7,8 +7,6 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select'
 import { MatGridListModule } from '@angular/material/grid-list';
 
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductCarouselComponent } from './product-carousel/product-carousel.component';
@@ -20,8 +18,12 @@ import { SearchPipe } from './pipes/search.pipe';
 import { ShowroomPipe } from './pipes/showroom.pipe';
 import { CategoryPipe } from './pipes/category.pipe';
 import { ValationPipe } from './pipes/valuation.pipe'
-import { TimehPipe } from './pipes/time.pipe';
+import { TimehPipe } from './pipes/time.pipe'
+import { CreateUserComponent } from './create-user/create-user.component';
+<<<<<<< Updated upstream
 import { FrontPageComponent } from './front-page/front-page.component'
+=======
+>>>>>>> Stashed changes
 
 @NgModule({
   declarations: [
@@ -34,7 +36,7 @@ import { FrontPageComponent } from './front-page/front-page.component'
     CategoryPipe,
     ValationPipe,
     TimehPipe,
-    FrontPageComponent
+    CreateUserComponent
   ],
   imports: [
     BrowserModule,
