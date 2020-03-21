@@ -8,7 +8,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select'
 import { MatGridListModule } from '@angular/material/grid-list';
-
+import { MatCardModule } from '@angular/material/card'
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -47,6 +47,7 @@ import { SingleProductComponent } from './single-product/single-product.componen
     MatCheckboxModule,
     MatInputModule,
     MatGridListModule,
+    MatCardModule,
     ReactiveFormsModule
   ],
   providers: [FurnitureService],
