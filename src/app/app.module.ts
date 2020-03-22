@@ -28,6 +28,7 @@ import { SingleProductComponent } from './single-product/single-product.componen
 import { CreateUserComponent } from './create-user/create-user.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MyPageComponent } from './my-page/my-page.component';
 
 
 @NgModule({
