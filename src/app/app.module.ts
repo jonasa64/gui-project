@@ -27,8 +27,9 @@ import { SingleProductComponent } from './single-product/single-product.componen
 
 import { CreateUserComponent } from './create-user/create-user.component';
 import { FrontPageComponent } from './front-page/front-page.component';
-import { ReactiveFormsModule } from '@angular/forms';
+
 import { MyPageComponent } from './my-page/my-page.component';
+import { TimehPipe } from './pipes/time.pipe';
 
 
 @NgModule({
@@ -44,7 +45,7 @@ import { MyPageComponent } from './my-page/my-page.component';
     TimehPipe,
 
     CheckoutComponent,
-    SingleProductComponent
+    SingleProductComponent,
 
     CreateUserComponent,
     FrontPageComponent
@@ -65,6 +66,6 @@ import { MyPageComponent } from './my-page/my-page.component';
   ],
   providers: [FurnitureService],
   bootstrap: [AppComponent]
-  
+
 })
 export class AppModule { }
