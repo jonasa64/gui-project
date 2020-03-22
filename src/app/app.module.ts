@@ -28,6 +28,7 @@ import { SingleProductComponent } from './single-product/single-product.componen
 
 import { CreateUserComponent } from './create-user/create-user.component';
 import { FrontPageComponent } from './front-page/front-page.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 
@@ -47,7 +48,8 @@ import { FrontPageComponent } from './front-page/front-page.component';
     SingleProductComponent,
 
     CreateUserComponent,
-    FrontPageComponent
+    FrontPageComponent,
+    NotFoundComponent
 
   ],
   imports: [
