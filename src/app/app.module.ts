@@ -21,13 +21,14 @@ import { SearchPipe } from './pipes/search.pipe';
 import { ShowroomPipe } from './pipes/showroom.pipe';
 import { CategoryPipe } from './pipes/category.pipe';
 import { ValationPipe } from './pipes/valuation.pipe'
+import { TimehPipe } from './pipes/time.pipe';
 
 import { CheckoutComponent } from './checkout/checkout.component';
 import { SingleProductComponent } from './single-product/single-product.component'
 
 import { CreateUserComponent } from './create-user/create-user.component';
 import { FrontPageComponent } from './front-page/front-page.component';
-import { ReactiveFormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -43,7 +44,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     TimehPipe,
 
     CheckoutComponent,
-    SingleProductComponent
+    SingleProductComponent,
 
     CreateUserComponent,
     FrontPageComponent
@@ -64,6 +65,6 @@ import { ReactiveFormsModule } from '@angular/forms';
   ],
   providers: [FurnitureService],
   bootstrap: [AppComponent]
-  
+
 })
 export class AppModule { }
