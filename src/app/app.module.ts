@@ -21,6 +21,10 @@ import { ShowroomPipe } from './pipes/showroom.pipe';
 import { CategoryPipe } from './pipes/category.pipe';
 import { ValationPipe } from './pipes/valuation.pipe'
 import { TimehPipe } from './pipes/time.pipe'
+import { CreateUserComponent } from './create-user/create-user.component';
+import { FrontPageComponent } from './front-page/front-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MyPageComponent } from './my-page/my-page.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,10 @@ import { TimehPipe } from './pipes/time.pipe'
     ShowroomPipe,
     CategoryPipe,
     ValationPipe,
-    TimehPipe
+    TimehPipe,
+    CreateUserComponent,
+    FrontPageComponent,
+    MyPageComponent
   ],
   imports: [
     BrowserModule,
