@@ -21,15 +21,16 @@ import { SearchPipe } from './pipes/search.pipe';
 import { ShowroomPipe } from './pipes/showroom.pipe';
 import { CategoryPipe } from './pipes/category.pipe';
 import { ValationPipe } from './pipes/valuation.pipe'
+import { TimehPipe } from './pipes/time.pipe';
 
 import { CheckoutComponent } from './checkout/checkout.component';
 import { SingleProductComponent } from './single-product/single-product.component'
-
 import { CreateUserComponent } from './create-user/create-user.component';
 import { FrontPageComponent } from './front-page/front-page.component';
-
+import { NotFoundComponent } from './not-found/not-found.component';
 import { MyPageComponent } from './my-page/my-page.component';
-import { TimehPipe } from './pipes/time.pipe';
+
+
 
 
 @NgModule({
@@ -43,12 +44,11 @@ import { TimehPipe } from './pipes/time.pipe';
     CategoryPipe,
     ValationPipe,
     TimehPipe,
-
     CheckoutComponent,
     SingleProductComponent,
-
     CreateUserComponent,
-    FrontPageComponent
+    FrontPageComponent,
+    NotFoundComponent
 
   ],
   imports: [
@@ -60,7 +60,6 @@ import { TimehPipe } from './pipes/time.pipe';
     MatCheckboxModule,
     MatInputModule,
     MatGridListModule,
-
     MatCardModule,
     ReactiveFormsModule
   ],
