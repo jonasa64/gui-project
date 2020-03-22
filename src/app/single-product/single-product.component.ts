@@ -31,6 +31,9 @@ export class SingleProductComponent implements OnInit {
 
   }
 
+  buy() {
+
+  }
 
 
 
