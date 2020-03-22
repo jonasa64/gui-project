@@ -7,8 +7,6 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select'
 import { MatGridListModule } from '@angular/material/grid-list';
 
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductCarouselComponent } from './product-carousel/product-carousel.component';
@@ -21,18 +19,24 @@ import { ShowroomPipe } from './pipes/showroom.pipe';
 import { CategoryPipe } from './pipes/category.pipe';
 import { ValationPipe } from './pipes/valuation.pipe'
 import { TimehPipe } from './pipes/time.pipe'
+import { CreateUserComponent } from './create-user/create-user.component';
+import { FrontPageComponent } from './front-page/front-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductCarouselComponent
+    ProductCarouselComponent,
     SearchComponent,
     FurnitureComponent,
     SearchPipe,
     ShowroomPipe,
     CategoryPipe,
     ValationPipe,
-    TimehPipe
+    TimehPipe,
+    CreateUserComponent,
+    FrontPageComponent
   ],
   imports: [
     BrowserModule,
@@ -42,9 +46,12 @@ import { TimehPipe } from './pipes/time.pipe'
     MatSelectModule,
     MatCheckboxModule,
     MatInputModule,
-    MatGridListModule
+    MatGridListModule,
+    BrowserModule,
+    ReactiveFormsModule
   ],
   providers: [FurnitureService],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }
