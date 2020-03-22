@@ -1,0 +1,46 @@
+.create-user {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0 0 2rem;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%;
+  text-align: center;
+}
+
+.input-group {
+  display: block;
+}
+
+.input-group-text {
+  background: #EFE8DE;
+  color: #7E6036;
+}
+
+.btn {
+  background: #7E6036;
+  border: #7E6036;
+}
+
+.log-in-text {
+  color: #7E6036;
+}
+
+.alert.alert-danger {
+  margin-top: -0.5rem;
+  height: 2rem;
+}
+
+.alert {
+  padding: .35rem 1.25rem;
+}
