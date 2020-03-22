@@ -1,0 +1,106 @@
+<div class="create-user">
+  <div class="align-center">
+    <h1>
+      {{title}}
+    </h1>
+    <form [formGroup]="angForm" novalidate>
+      <div class="form-group input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+          <input class="form-control" name="" placeholder="Fornavn" type="text" formControlName="name">
+        </div>
+      </div>
+      <div
+        *ngIf="angForm.controls['name'].invalid && (angForm.controls['name'].dirty || angForm.controls['name'].touched)"
+        class="alert alert-danger">
+        <div *ngIf="angForm.controls['name'].errors.required">
+          Skriv venligst dit fornavn.
+        </div>
+      </div>
+    </form>
+
+    <form [formGroup]="angForm" novalidate>
+      <div class="form-group input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+          <input class="form-control" name="" placeholder="Efternavn" type="text" formControlName="lastname">
+        </div>
+      </div>
+      <div
+        *ngIf="angForm.controls['lastname'].invalid && (angForm.controls['lastname'].dirty || angForm.controls['lastname'].touched)"
+        class="alert alert-danger">
+        <div *ngIf="angForm.controls['lastname'].errors.required">
+          Skriv venligst dit efternavn.
+        </div>
+      </div>
+    </form>
+
+    <form [formGroup]="angForm" novalidate>
+      <div class="form-group input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+          <input class="form-control" name="" placeholder="E-mail" type="text" formControlName="email">
+        </div>
+      </div>
+      <div
+        *ngIf="angForm.controls['email'].invalid && (angForm.controls['email'].dirty || angForm.controls['email'].touched)"
+        class="alert alert-danger">
+        <div *ngIf="angForm.controls['email'].errors.required">
+          Skriv venligst din e-mail.
+        </div>
+      </div>
+    </form>
+
+    <form [formGroup]="angForm" novalidate>
+      <div class="form-group input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+          <input class="form-control" name="" placeholder="Telefonnummer" type="text" formControlName="number">
+        </div>
+      </div>
+      <div
+        *ngIf="angForm.controls['number'].invalid && (angForm.controls['number'].dirty || angForm.controls['number'].touched)"
+        class="alert alert-danger">
+        <div *ngIf="angForm.controls['number'].errors.required">
+          Skriv venligst dit telefonnummer.
+        </div>
+      </div>
+    </form>
+
+    <form [formGroup]="angForm" novalidate>
+      <div class="form-group input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+          <input class="form-control" name="" placeholder="Opret adgangskode" type="text" formControlName="password">
+        </div>
+      </div>
+      <div
+        *ngIf="angForm.controls['password'].invalid && (angForm.controls['password'].dirty || angForm.controls['password'].touched)"
+        class="alert alert-danger">
+        <div *ngIf="angForm.controls['password'].errors.required">
+          Skriv venligst en adgangskode.
+        </div>
+      </div>
+    </form>
+
+    <form [formGroup]="angForm" novalidate>
+      <div class="form-group input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+          <input class="form-control" name="" placeholder="Gentag adgangskode" type="text" formControlName="repeatpassword">
+        </div>
+      </div>
+      <div
+        *ngIf="angForm.controls['repeatpassword'].invalid && (angForm.controls['repeatpassword'].dirty || angForm.controls['repeatpassword'].touched)"
+        class="alert alert-danger">
+        <div *ngIf="angForm.controls['repeatpassword'].errors.required">
+          Gentag venligst adgangskode.
+        </div>
+      </div>
+    </form>
+
+    <button type="submit" [disabled]="angForm.pristine || angForm.invalid" class="btn btn-success">
+      Opret bruger
+    </button>
+  </div>
+</div>

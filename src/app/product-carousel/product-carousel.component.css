@@ -1,0 +1,53 @@
+.gallery {
+    background: transparent;
+}
+
+.gallery-cell {
+    width: 35%;
+    height: 430px;
+    margin-right: 10px;
+    counter-increment: gallery-cell;
+    background-color: #B69E7C;
+    border-radius: 5px;
+}
+
+.img-carousel {
+    position: absolute;
+    top: 40px;
+    z-index: 1000;
+    left: 25%;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.gallery.js-flickity.flickity-enabled.is-draggable {
+    margin: 3rem 0 4rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5rem;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.my-viewport { /*.flickity-viewport */ 
+    height: 430px !important;
+}
+
+.product-title {
+    text-align: center;
+    margin: 19rem 0 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.product-text {
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+.product-price {
+    text-align: center;
+    
+}
