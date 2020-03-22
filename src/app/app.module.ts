@@ -1,11 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select'
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,7 +21,10 @@ import { SearchPipe } from './pipes/search.pipe';
 import { ShowroomPipe } from './pipes/showroom.pipe';
 import { CategoryPipe } from './pipes/category.pipe';
 import { ValationPipe } from './pipes/valuation.pipe'
-import { TimehPipe } from './pipes/time.pipe'
+
+import { CheckoutComponent } from './checkout/checkout.component';
+import { SingleProductComponent } from './single-product/single-product.component'
+
 import { CreateUserComponent } from './create-user/create-user.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -35,8 +41,13 @@ import { ReactiveFormsModule } from '@angular/forms';
     CategoryPipe,
     ValationPipe,
     TimehPipe,
+
+    CheckoutComponent,
+    SingleProductComponent
+
     CreateUserComponent,
     FrontPageComponent
+
   ],
   imports: [
     BrowserModule,
@@ -47,7 +58,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatCheckboxModule,
     MatInputModule,
     MatGridListModule,
-    BrowserModule,
+
+    MatCardModule,
     ReactiveFormsModule
   ],
   providers: [FurnitureService],

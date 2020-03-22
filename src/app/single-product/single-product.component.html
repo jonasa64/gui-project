@@ -1,0 +1,19 @@
+<p>single-product works!</p>
+<mat-card class="card">
+
+<h1>{{funiture.title}}</h1>
+
+<ul class="list-group">
+
+  <li class="list-group-item">Beskrivelse:{{funiture.Beskrivelse}} </li>
+  <li class="list-group-item">Vurdering: {{funiture.Vurdering}} </li>
+  <li class="list-group-item">Showroom : {{funiture.Showroom}} </li>
+  <li class="list-group-item">tid: {{funiture.tid}} </li>
+</ul>
+
+<img src="{{funiture.img}}" alt="{{funiture.title}}"/><br>
+
+<button class="btn btn-primary" (click)="buy()">Køb</button>
+
+
+</mat-card>
