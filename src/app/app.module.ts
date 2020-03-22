@@ -20,7 +20,8 @@ import { CategoryPipe } from './pipes/category.pipe';
 import { ValationPipe } from './pipes/valuation.pipe'
 import { TimehPipe } from './pipes/time.pipe'
 import { CreateUserComponent } from './create-user/create-user.component';
-import { FrontPageComponent } from './front-page/front-page.component'
+import { FrontPageComponent } from './front-page/front-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -45,9 +46,12 @@ import { FrontPageComponent } from './front-page/front-page.component'
     MatSelectModule,
     MatCheckboxModule,
     MatInputModule,
-    MatGridListModule
+    MatGridListModule,
+    BrowserModule,
+    ReactiveFormsModule
   ],
   providers: [FurnitureService],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }
