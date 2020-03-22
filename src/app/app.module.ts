@@ -25,10 +25,10 @@ import { TimehPipe } from './pipes/time.pipe';
 
 import { CheckoutComponent } from './checkout/checkout.component';
 import { SingleProductComponent } from './single-product/single-product.component'
-
 import { CreateUserComponent } from './create-user/create-user.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { MyPageComponent } from './my-page/my-page.component';
 
 
 
@@ -43,10 +43,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     CategoryPipe,
     ValationPipe,
     TimehPipe,
-
     CheckoutComponent,
     SingleProductComponent,
-
     CreateUserComponent,
     FrontPageComponent,
     NotFoundComponent
@@ -61,7 +59,6 @@ import { NotFoundComponent } from './not-found/not-found.component';
     MatCheckboxModule,
     MatInputModule,
     MatGridListModule,
-
     MatCardModule,
     ReactiveFormsModule
   ],
