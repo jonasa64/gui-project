@@ -20,13 +20,6 @@ export class SingleProductComponent implements OnInit {
   };
 
 
-
-  findFuniture() {
-    //this.funiture = this.furnitieures.find((el) => el.title === 'Hyndesæt til Hans J. Wegners Y- stol. Cognacfarvet læder. (6)');
-    console.log(this.furnitieures);
-    return this.funiture;
-  }
-
   constructor(private furnitureService: FurnitureService) { }
 
 
