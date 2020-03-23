@@ -9,6 +9,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select'
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -64,7 +66,9 @@ import { LoginService } from './services/login.service';
     MatInputModule,
     MatGridListModule,
     MatCardModule,
-    ReactiveFormsModule
+    BrowserModule,
+    ReactiveFormsModule,
+    MatButtonModule
   ],
   providers: [FurnitureService, LoginService],
   bootstrap: [AppComponent]

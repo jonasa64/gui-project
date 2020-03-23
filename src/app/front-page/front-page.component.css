@@ -47,11 +47,11 @@
 }
 
 .byd {
-   margin-bottom: 2rem;
-   opacity: 1;
-   text-shadow: 0 0 10px black;
-   font-family: "Oswald", sans-serif !important;
-   text-transform: uppercase;
+  margin-bottom: 2rem;
+  opacity: 1;
+  text-shadow: 0 0 10px black;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 2rem;
 }
 
 .btn.btn-primary.btn-lg.mt-3 {
@@ -63,6 +63,8 @@
    font-family: "Lato", sans-serif;
    font-weight: bold;
    font-size: 1.5rem;
+   color: white;
+   text-transform: uppercase;
 }
 
 .menu {
@@ -86,6 +88,8 @@
 
 .card-title {
    font-weight: bold;
+   font-size: 1rem !important;
+  text-decoration: none;
 }
 
 a.card-text {
@@ -104,3 +108,4 @@ a.card-text:hover {
   background-color: #EFE8DE;
   transition: ease-in 0.5s;
 }
+
