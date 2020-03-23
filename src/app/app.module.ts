@@ -33,6 +33,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { MyPageComponent } from './my-page/my-page.component';
 import { LoginComponent } from './login/login.component';
 import { LoginService } from './services/login.service';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 
 
 
@@ -53,7 +54,8 @@ import { LoginService } from './services/login.service';
     CreateUserComponent,
     FrontPageComponent,
     NotFoundComponent,
-    LoginComponent
+    LoginComponent,
+    ConfirmationComponent
 
   ],
   imports: [

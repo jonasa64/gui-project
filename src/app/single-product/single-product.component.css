@@ -8,7 +8,7 @@
 }
 
 .product-card {
-  height: 92%;
+  height: 92.75%;
 }
 
 .col-lg-12 {
@@ -27,4 +27,5 @@
   box-shadow: 0 0 3px gray;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
 }
