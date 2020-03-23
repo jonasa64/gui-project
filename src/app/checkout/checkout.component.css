@@ -1,0 +1,12 @@
+.row.box {
+  margin: 2rem 1rem 4rem;
+}
+
+.btn.btn-primary.btn-lg.btn-block {
+  color: white;
+  background: #7E6036;
+  border: #7E6036;
+  font-size: 1.2rem !important;
+  text-transform: uppercase;
+  padding: .5rem;
+}

@@ -6,6 +6,7 @@ import { CreateUserComponent } from './create-user/create-user.component';
 import { MyPageComponent } from './my-page/my-page.component'
 import { SingleProductComponent } from './single-product/single-product.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:'create-user', component: CreateUserComponent},
   {path:'single-product', component: SingleProductComponent},
   {path:'confirmation', component: ConfirmationComponent},
+  {path:'checkout', component: CheckoutComponent},
   {path:'my-page', component: MyPageComponent}];
 
 @NgModule({
