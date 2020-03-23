@@ -32,9 +32,7 @@ export class LoginComponent {
       this.form.controls['password'].setErrors({
         invalidLognin: true
       });
-    }
-
-    this.router.navigate(['my-page']);
+    } else this.router.navigate(['my-page']);
 
   }
 

@@ -34,6 +34,7 @@ import { MyPageComponent } from './my-page/my-page.component';
 import { LoginComponent } from './login/login.component';
 import { LoginService } from './services/login.service';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
+// import { AuthGuard } from './services/authguard.service';
 
 
 
@@ -55,7 +56,8 @@ import { ConfirmationComponent } from './confirmation/confirmation.component';
     FrontPageComponent,
     NotFoundComponent,
     LoginComponent,
-    ConfirmationComponent
+    ConfirmationComponent,
+    MyPageComponent
 
   ],
   imports: [

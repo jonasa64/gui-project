@@ -10,7 +10,8 @@ import { FurnitureComponent } from './furniture/furniture.component';
 import { LoginComponent } from './login/login.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProductCarouselComponent } from './product-carousel/product-carousel.component';
-import { AuthGuard } from './services/authguard.service';
+import { SingleProductComponent } from './single-product/single-product.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 
 
 
@@ -25,9 +26,11 @@ const routes: Routes = [
   { path: 'furniture', component: FurnitureComponent },
   { path: 'login', component: LoginComponent },
   { path: 'not-found', component: NotFoundComponent },
-  { path: '**', redirectTo: '/not-found' },
+  // { path: '**', redirectTo: '/not-found' },
   { path: 'product-carousel', component: ProductCarouselComponent },
-  { path: 'my-page', component: MyPageComponent, canActivate: [AuthGuard] }];
+  { path: 'single-product', component: SingleProductComponent },
+  { path: 'confirmation', component: ConfirmationComponent },
+  { path: 'my-page', component: MyPageComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

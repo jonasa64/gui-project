@@ -5,12 +5,12 @@ export class FurnitureService {
                 title: "Karmstol samtida",
                 img: "https://images.auctionet.com/uploads/medium_item_1248300_c736834293.jpg",
                 Beskrivelse: "KARMSTOL, samtida, ryggstöd i trä, stomme i pulverlackerad stål, klädd textilsits, sitthöjd ca 43 cm",
-                Vurdering: 1000,
+                Vurdering: 999,
                 Showroom: "SE, Stockholms Auktionsverk, Norrköping",
                 tid: "25-03-2020 14:00",
                 isDelux: false,
                 Kategori: "ryggstød",
-                Vurderingsort: '1000 - 1499',
+                Vurderingsort: '999 - 1499',
                 tidFilter: 'slutter inden for 12 timer'
             },
             {

@@ -30,6 +30,7 @@ h1 {
 .btn {
   background: #7E6036;
   border: #7E6036;
+  color: white !important;
 }
 
 .log-in-text {

@@ -18,6 +18,4 @@ export class LoginService {
     this.isLoggedIn = false;
     return this.isLoggedIn;
   }
-
-
 }
