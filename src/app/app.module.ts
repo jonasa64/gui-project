@@ -30,6 +30,7 @@ import { FrontPageComponent } from './front-page/front-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MyPageComponent } from './my-page/my-page.component';
 import { LoginComponent } from './login/login.component';
+import { LoginService } from './services/login.service';
 
 
 
@@ -65,7 +66,7 @@ import { LoginComponent } from './login/login.component';
     MatCardModule,
     ReactiveFormsModule
   ],
-  providers: [FurnitureService],
+  providers: [FurnitureService, LoginService],
   bootstrap: [AppComponent]
 
 })
