@@ -29,6 +29,8 @@ import { CreateUserComponent } from './create-user/create-user.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MyPageComponent } from './my-page/my-page.component';
+import { LoginComponent } from './login/login.component';
+import { LoginService } from './services/login.service';
 
 
 
@@ -48,7 +50,8 @@ import { MyPageComponent } from './my-page/my-page.component';
     SingleProductComponent,
     CreateUserComponent,
     FrontPageComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    LoginComponent
 
   ],
   imports: [
@@ -63,7 +66,7 @@ import { MyPageComponent } from './my-page/my-page.component';
     MatCardModule,
     ReactiveFormsModule
   ],
-  providers: [FurnitureService],
+  providers: [FurnitureService, LoginService],
   bootstrap: [AppComponent]
 
 })
