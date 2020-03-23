@@ -6,3 +6,25 @@
   display: flex;
   justify-content: center;
 }
+
+.product-card {
+  height: 92%;
+}
+
+.col-lg-12 {
+  display: flex;
+  justify-content: center;
+}
+
+.card-header {
+  background: #EFE8DE;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #7E6036;
+  border-color: #7E6036;
+  box-shadow: 0 0 3px gray;
+  display: flex;
+  justify-content: center;
+}
