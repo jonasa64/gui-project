@@ -87,7 +87,8 @@
       <div class="form-group input-group">
         <div class="input-group-prepend">
           <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-          <input class="form-control" name="" placeholder="Gentag adgangskode" type="text" formControlName="repeatpassword">
+          <input class="form-control" name="" placeholder="Gentag adgangskode" type="text"
+            formControlName="repeatpassword">
         </div>
       </div>
       <div
@@ -98,9 +99,10 @@
         </div>
       </div>
     </form>
-
-    <button type="submit" [disabled]="angForm.pristine || angForm.invalid" class="btn btn-success">
-      Opret bruger
-    </button>
+    <a href="/my-page">
+      <button type="submit" [disabled]="angForm.pristine || angForm.invalid" class="btn btn-success">
+        Opret bruger
+      </button>
+    </a>
   </div>
 </div>
