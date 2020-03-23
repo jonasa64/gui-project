@@ -16,16 +16,17 @@ import { ProductCarouselComponent } from './product-carousel/product-carousel.co
 
 
 const routes: Routes = [
-  {path:'', component: FrontPageComponent},
-  {path:'search', component: SearchComponent},
-  {path:'create-user', component: CreateUserComponent},
-  {path:'checkout', component: CheckoutComponent},
-  {path:'footer', component: FooterComponent},
-  {path:'furniture', component: FurnitureComponent},
-  {path:'login', component: LoginComponent},
-  {path:'not-found', component: NotFoundComponent},
-  {path:'product-carousel', component: ProductCarouselComponent},
-  {path:'my-page', component: MyPageComponent}];
+  { path: '', component: FrontPageComponent },
+  { path: 'search', component: SearchComponent },
+  { path: 'create-user', component: CreateUserComponent },
+  { path: 'checkout', component: CheckoutComponent },
+  { path: 'footer', component: FooterComponent },
+  { path: 'furniture', component: FurnitureComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'not-found', component: NotFoundComponent },
+  { path: '**', redirectTo: '/not-found' },
+  { path: 'product-carousel', component: ProductCarouselComponent },
+  { path: 'my-page', component: MyPageComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
