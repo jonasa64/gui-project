@@ -5,6 +5,7 @@ import { SearchComponent } from './search/search.component';
 import { CreateUserComponent } from './create-user/create-user.component';
 import { MyPageComponent } from './my-page/my-page.component'
 import { SingleProductComponent } from './single-product/single-product.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'search', component: SearchComponent},
   {path:'create-user', component: CreateUserComponent},
   {path:'single-product', component: SingleProductComponent},
+  {path:'confirmation', component: ConfirmationComponent},
   {path:'my-page', component: MyPageComponent}];
 
 @NgModule({
