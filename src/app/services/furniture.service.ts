@@ -14,7 +14,7 @@ export class FurnitureService {
                 tidFilter: 'slutter inden for 12 timer'
             },
             {
-                title: "Hyndesæt til Hans J. Wegners Y- stol. Cognacfarvet læder. (6)",
+                title: "Hyndesæt til Hans J. Wegners Y- stol",
                 img: "https://images.lauritz.com/images/DD41CDABA87109E84FC19CBAC8FC19CA?width=200",
                 Beskrivelse: "Hyndesæt til Hans J. Wegners Y- stol. Sæt på seks hynder, betrukket med cognacfarvet læder. Ca. 2,5 cm i",
                 Vurdering: 2000,
@@ -26,7 +26,7 @@ export class FurnitureService {
                 tidFilter: 'slutter inden for 12 timer'
             },
             {
-                title: "Arne Jacobsen. Et sæt på seks stole 'Syveren', model 3107, sort læder. Ny siddehøjde 46,5 cm. (6)",
+                title: "Sæt på seks stole 'Syveren'",
                 img: "https://images.lauritz.com/images/DD41CDABA87109E84FC19CBAC8FC19CA?width=200",
                 Beskrivelse: "Arne Jacobsen (1902-1971). Et sæt på seks stole 'Syveren', model 3107, stel af forkromet stålrør, produceret af Fritz Hansen, nybetrukket med sort læder. Ny siddehøjde 46,5 cm.",
                 Vurdering: 18000,
@@ -38,7 +38,7 @@ export class FurnitureService {
                 tidFilter: 'slutter inden for 24 timer'
             },
             {
-                title: "Hans J. Wegner. 'Den kinesiske stol' / 'Kinastolen', sortlakeret",
+                title: "Hans J. Wegner - 'Den kinesiske stol'",
                 img: "https://images.lauritz.com/images/AA8054E02089EBB4638DDFF110A49034?width=200",
                 Beskrivelse: "Hans J. Wegner 1914-2007. 'Den kinesiske stol' / 'Kinastolen', med stel af sortlakeret træ, sæde med original løs vendbar 'red label' sædehynde, betrukket med knapsyet sort læder. Formgivet 1943. Fremstillet hos Fritz Hansen, model FH4283. H. 82/44 cm",
                 Vurdering: 14000,
@@ -50,7 +50,7 @@ export class FurnitureService {
                 tidFilter: 'slutter inden for 24 timer'
             },
             {
-                title: "Stolar 1 par i Louis XVI-stil",
+                title: "Stolar i Louis XVI-stil",
                 img: "https://images.lauritz.com/images/D926376EA7F9760C6FBB785C607CE41B?width=200",
                 Beskrivelse: "STOLAR, 1 par, Louis XVI-stil, omkring 1900, träskuren dekor, kannelerade ben, sitthöjd 43 cm",
                 Vurdering: 1700,
@@ -62,7 +62,7 @@ export class FurnitureService {
                 tidFilter: 'slutter inden for 24 timer'
             },
             {
-                title: "Arne Jacobsen. Seks stole model 3107 'Syveren' (6)",
+                title: "Arne Jacobsen - Seks stole model 'Syveren'",
                 img: "https://images.lauritz.com/images/D926376EA7F9760C6FBB785C607CE41B?width=200",
                 Beskrivelse: "Arne Jacobsen. Sæt på seks stole model 3107, 'Syveren' af formbøjet bejdset finér med forkromede ben. Fremstillet hos Fritz Hansen. H.76 cm. SH. 42 cm. Fremstår med kraftige brugsspor, ridser og mærker, stel med skævhed, én sko mangler. Alle med faste rygge.",
                 Vurdering: 3000,
@@ -74,7 +74,7 @@ export class FurnitureService {
                 tidFilter: 'over 24 timer tilbage'
             },
             {
-                title: "Deszine Talks. Hyndesæt til Hans J. Wegners Y- stol. Sort læder. (6)",
+                title: "Deszine Talks - Hyndesæt til Hans J. Wegners Y- stol",
                 img: "https://images.lauritz.com/images/D926376EA7F9760C6FBB785C607CE41B?width=200",
                 Beskrivelse: "Deszine Talks. Hyndesæt til Hans J. Wegners Y- stol. Sæt på seks hynder, betrukket med sort læder. Ca. 3 cm i tykkelse",
                 Vurdering: 2400,
@@ -86,7 +86,7 @@ export class FurnitureService {
                 tidFilter: 'over 24 timer tilbage'
             },
             {
-                title: "Deszine Talks. Læderovertræk til Arne Jacobsens 7´er stole (6)",
+                title: "Deszine Talks - Læderovertræk til Arne Jacobsens",
                 img: "https://images.lauritz.com/images/AB8FD634879BEA47793BFEA4B1D92516?width=200",
                 Beskrivelse: "Deszine Talks. Hyndesæt til Hans J. Wegners Y- stol. Sæt på seks hynder, betrukket med sort læder. Ca. 3 cm i tykkelse",
                 Vurdering: 3600,
@@ -98,7 +98,7 @@ export class FurnitureService {
                 tidFilter: 'over 24 timer tilbage'
             },
             {
-                title: "Kai Kristiansen. 8 armstole af teak / uld, model 42 (8)",
+                title: "Kai Kristiansen - 8 armstole",
                 img: "https://images.lauritz.com/images/144795EA80FF9AD1FFED4715E13DBE9D?width=200",
                 Beskrivelse: "Kai Kristiansen, 8 armstole af teak, model 42. Sæde og let vippebar ryg betrukket med uld. Fremstillet hos Schou Andersen Møbelfabrik. Formgivet i 1956-1957, H. 74 cm. Sædehøjde 45 cm. Fremstår med brugsspor samt uld med kraftig slid og pletter. (8)",
                 Vurdering: 10000,
@@ -110,7 +110,7 @@ export class FurnitureService {
                 tidFilter: 'over 24 timer tilbage'
             },
             {
-                title: "Arne Jacobsen. Fire 'Syveren' stole (4)",
+                title: "Arne Jacobsen - Fire 'Syveren' stole",
                 img: "https://images.lauritz.com/images/2900306B617B309C17C35628BAC30B77?width=200",
                 Beskrivelse: "Arne Jacobsen (1902-1971). Fire 'Syveren' stole, heraf to model 3107 samt to med armlæn, model 3207, skaller betrukket med uldstof, ben af forkromede stålrør, sædehøjde ca. 44 cm. Udført hos Fritz Hansen.",
                 Vurdering: 1500,

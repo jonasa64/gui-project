@@ -27,7 +27,7 @@ export class SingleProductComponent implements OnInit {
 
   ngOnInit(): void {
     this.furnitieures = this.furnitureService.getFurnitures();
-    this.funiture = this.furnitieures.find((el) => el.title === 'Hyndesæt til Hans J. Wegners Y- stol. Cognacfarvet læder. (6)');
+    this.funiture = this.furnitieures.find((el) => el.title === 'Karmstol samtida');
 
   }
 

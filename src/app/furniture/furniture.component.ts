@@ -13,7 +13,6 @@ export class FurnitureComponent implements OnInit {
                       Showroom : string,
                       tid : string,
                       isDelux: boolean
-
                     };
 
   constructor() { }
