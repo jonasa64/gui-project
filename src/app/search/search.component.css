@@ -1,19 +1,54 @@
 .example-full-width {
     width: 100%;
     min-width: 150px;
-    max-width: 810px;
-  }
+    max-width: 797px;
+}
 
-  .container {
-      margin-bottom: 10px;
-  }
+.container {
+    margin-bottom: 10px;
+}
 
-  .select{
-      margin-right: 35px;
-  }
+.container[_ngcontent-gnd-c93] {
+    margin-bottom: 3rem !important;
+}
 
-  .check{
-      margin-right: 25px;
-      max-width: 50px;
-  }
+.select{
+    margin-right: 26px;
+}
 
+.check{
+    margin-right: 25px;
+    max-width: 50px;
+}
+
+.justify-content-center {
+    justify-content: center !important; 
+    display: flex;
+}
+
+.svg-inline--fa.fa-search.fa-w-16 {
+    margin: 1rem 0;
+}
+
+.col-12 {
+    margin: 2rem 0;
+}
+
+.flex.ng-tns-c59-0 {
+    display: flex;
+}
+
+.mat-input-element {
+    caret-color: #7E6036;
+}
+
+.col-2 {
+    padding: 1rem !important;
+    font-weight: bold;
+    background: #EFE8DE;
+    border: #212529 !important;
+}
+
+.box {
+    margin-bottom: 3rem;
+}

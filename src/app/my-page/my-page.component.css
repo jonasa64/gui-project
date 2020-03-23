@@ -59,3 +59,7 @@
 tbody {
   border: 1px solid lightgray;
 }
+
+.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: #EFE8DE;
+}
