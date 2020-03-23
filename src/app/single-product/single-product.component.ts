@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { FurnitureService } from '../services/furniture.service'
+import { FurnitureService } from '../services/furniture.service';
+
+/**
+ * SingleProductComponent
+ */
 @Component({
   selector: 'app-single-product',
   templateUrl: './single-product.component.html',
