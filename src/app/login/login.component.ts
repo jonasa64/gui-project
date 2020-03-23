@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms'
 import { PasswordValidator } from './passwordvalidator'
 import { LoginService } from '../services/login.service';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -18,7 +19,7 @@ export class LoginComponent {
      password : new FormControl('',Validators.required)
  });*/
 
-  constructor(fb: FormBuilder, private _loginService: LoginService) {
+  constructor(fb: FormBuilder, private _loginService: LoginService, private router: Router) {
     this.form = fb.group({
       username: ["", Validators.required],
       password: ["", Validators.compose([Validators.required, PasswordValidator.canNotContainSpace])]
@@ -32,6 +33,8 @@ export class LoginComponent {
         invalidLognin: true
       });
     }
+
+    this.router.navigate(['my-page']);
 
   }
 
