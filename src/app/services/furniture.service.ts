@@ -3,7 +3,7 @@ export class FurnitureService {
         return [
             {
                 title: "Karmstol samtida",
-                img: "https://images.lauritz.com/images/4F7CC7678879B5C9998D9A438223D797?width=200",
+                img: "https://images.auctionet.com/uploads/medium_item_1248300_c736834293.jpg",
                 Beskrivelse: "KARMSTOL, samtida, ryggstöd i trä, stomme i pulverlackerad stål, klädd textilsits, sitthöjd ca 43 cm",
                 Vurdering: 1000,
                 Showroom: "SE, Stockholms Auktionsverk, Norrköping",
