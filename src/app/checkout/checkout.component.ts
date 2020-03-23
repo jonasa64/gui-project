@@ -1,6 +1,7 @@
 import { Component, OnInit, } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { CardValidator } from './cardValidtor';
+import { Router } from '@angular/router';
 
 
 
@@ -13,8 +14,8 @@ export class CheckoutComponent implements OnInit {
 
   form: FormGroup;
 
-  constructor(private formBulider: FormBuilder) {
-    this.form = this.formBulider.group({
+  constructor(private formBulider: FormBuilder, private router: Router) {
+    this.form = this.formBulider.group ({
       firstName: ['', Validators.required],
       lastName: ['', Validators.required],
       username: ['', Validators.required],
@@ -31,7 +32,6 @@ export class CheckoutComponent implements OnInit {
       Expiration: ['', Validators.required],
       cvv: ['', Validators.required],
 
-
     });
 
   }
@@ -39,14 +39,12 @@ export class CheckoutComponent implements OnInit {
   onSubmit() {
     if (this.form.valid) {
       console.log('valid');
+      this.router.navigate(['confirmation']);
     } else {
-      console.log("incalid", this.form.get("creditCardNumber").hasError('invalidCreditCard'));
+      console.log("invalid", this.form.get("creditCardNumber").hasError('invalidCreditCard'));
     }
-
-
   }
 
   ngOnInit(): void {
   }
-
 }
