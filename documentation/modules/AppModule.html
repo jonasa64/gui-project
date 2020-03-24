@@ -7,13 +7,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
-	      <link rel="stylesheet" href="./styles/style.css">
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
     </head>
     <body>
 
         <div class="navbar navbar-default navbar-fixed-top visible-xs">
-            <a href="./" class="navbar-brand">gui-project documentation</a>
+            <a href="../" class="navbar-brand">gui-project documentation</a>
             <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
         </div>
 
@@ -27,14 +27,16 @@
                    <compodoc-menu mode="normal"></compodoc-menu>
                </div>
                <!-- START CONTENT -->
-               <div class="content overview">
+               <div class="content module">
                    <div class="content-data">
 
 
+
 <ol class="breadcrumb">
-    <li>Overview</li>
+    <li>Modules</li>
+    <li>AppModule</li>
 </ol>
-  
+
 <div class="text-center module-graph-container">
     <div id="module-graph-svg">
         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -336,66 +338,217 @@
         <button id="zoom-out" class="btn btn-default btn-sm">Zoom out</button>
     </div>
 </div>
-  
-<div class="container-fluid overview">
-    <div class="row">
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-ios-archive"></span></h4>
-                    <p class="card-text">
-                        <a href="./modules.html">2 Modules</a>
-                    </p>
+<script src="../js/libs/svg-pan-zoom.min.js"></script>
+<script src="../js/svg-pan-zoom.controls.js"></script>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li  class="active" >
+        <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+    <li >
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/app.module.ts</code>
+        </p>
+
+
+
+
+        <div class="container-fluid module">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>Declarations<a href="https://angular.io/api/core/NgModule#declarations" target="_blank"
+                            title="Official documentation about module declarations"><span class="icon ion-ios-information-circle-outline"></span></a></h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="../components/AppComponent.html">AppComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../pipes/CategoryPipe.html">CategoryPipe</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/CheckoutComponent.html">CheckoutComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/ConfirmationComponent.html">ConfirmationComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/CreateUserComponent.html">CreateUserComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/FrontPageComponent.html">FrontPageComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/FurnitureComponent.html">FurnitureComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/LoginComponent.html">LoginComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/MyPageComponent.html">MyPageComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/NotFoundComponent.html">NotFoundComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/ProductCarouselComponent.html">ProductCarouselComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/SearchComponent.html">SearchComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../pipes/SearchPipe.html">SearchPipe</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../pipes/ShowroomPipe.html">ShowroomPipe</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../components/SingleProductComponent.html">SingleProductComponent</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../pipes/TimehPipe.html">TimehPipe</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="../pipes/ValationPipe.html">ValationPipe</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Providers<a href="https://angular.io/api/core/NgModule#providers" target="_blank"
+                            title="Official documentation about module providers"><span class="icon ion-ios-information-circle-outline"></a></h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="../injectables/LoginService.html">LoginService</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Imports<a href="https://angular.io/api/core/NgModule#imports" target="_blank" title="Official documentation about module imports"><span
+                                class="icon ion-ios-information-circle-outline"></a></h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="../modules/AppRoutingModule.html">AppRoutingModule</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Bootstrap<a href="https://angular.io/api/core/NgModule#bootstrap" target="_blank"
+                            title="Official documentation about module bootstrap"><span class="icon ion-ios-information-circle-outline"></a></h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="../components/AppComponent.html">AppComponent</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-md-cog"></span></h4>
-                    <p class="card-text">14 Components</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-md-arrow-round-down"></span></h4>
-                    <p class="card-text">2 Injectables</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-md-add"></span></h4>
-                    <p class="card-text">5 Pipes</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-ios-paper"></span></h4>
-                    <p class="card-text">3 Classes</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center">
-                <div class="card-block">
-                    <h4 class="card-title"><span class="icon ion-ios-git-branch"></span></h4>
-                    <p class="card-text">
-                        <a href="./routes.html">12 Routes</a>
-                    </p>
-                </div>
-            </div>
-        </div>
+
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { BrowserModule } from &#x27;@angular/platform-browser&#x27;;
+import { NgModule } from &#x27;@angular/core&#x27;;
+import { FormsModule } from &#x27;@angular/forms&#x27;
+import { ReactiveFormsModule } from &#x27;@angular/forms&#x27;;
+
+
+import { MatInputModule } from &#x27;@angular/material/input&#x27;;
+import { MatCheckboxModule } from &#x27;@angular/material/checkbox&#x27;;
+import { MatSelectModule } from &#x27;@angular/material/select&#x27;
+import { MatGridListModule } from &#x27;@angular/material/grid-list&#x27;;
+import { MatCardModule } from &#x27;@angular/material/card&#x27;;
+import { MatButtonModule } from &#x27;@angular/material/button&#x27;;
+import { FlexLayoutModule } from &#x27;@angular/flex-layout&#x27;;
+
+
+import { AppRoutingModule } from &#x27;./app-routing.module&#x27;;
+import { AppComponent } from &#x27;./app.component&#x27;;
+import { ProductCarouselComponent } from &#x27;./product-carousel/product-carousel.component&#x27;;
+import { BrowserAnimationsModule } from &#x27;@angular/platform-browser/animations&#x27;;
+import { SearchComponent } from &#x27;./search/search.component&#x27;;
+import { FurnitureComponent } from &#x27;./furniture/furniture.component&#x27;;
+import { FurnitureService } from &#x27;./services/furniture.service&#x27;;
+import { SearchPipe } from &#x27;./pipes/search.pipe&#x27;;
+import { ShowroomPipe } from &#x27;./pipes/showroom.pipe&#x27;;
+import { CategoryPipe } from &#x27;./pipes/category.pipe&#x27;;
+import { ValationPipe } from &#x27;./pipes/valuation.pipe&#x27;
+import { TimehPipe } from &#x27;./pipes/time.pipe&#x27;;
+
+import { CheckoutComponent } from &#x27;./checkout/checkout.component&#x27;;
+import { SingleProductComponent } from &#x27;./single-product/single-product.component&#x27;
+import { CreateUserComponent } from &#x27;./create-user/create-user.component&#x27;;
+import { FrontPageComponent } from &#x27;./front-page/front-page.component&#x27;;
+import { NotFoundComponent } from &#x27;./not-found/not-found.component&#x27;;
+import { MyPageComponent } from &#x27;./my-page/my-page.component&#x27;;
+import { LoginComponent } from &#x27;./login/login.component&#x27;;
+import { LoginService } from &#x27;./services/login.service&#x27;;
+import { ConfirmationComponent } from &#x27;./confirmation/confirmation.component&#x27;;
+
+
+import { MatFormFieldModule } from &#x27;@angular/material/form-field&#x27;; 
+import { MatIconModule } from &#x27;@angular/material/icon&#x27;; 
+// import { AuthGuard } from &#x27;./services/authguard.service&#x27;;
+
+
+
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    ProductCarouselComponent,
+    SearchComponent,
+    FurnitureComponent,
+    SearchPipe,
+    ShowroomPipe,
+    CategoryPipe,
+    ValationPipe,
+    TimehPipe,
+    CheckoutComponent,
+    SingleProductComponent,
+    CreateUserComponent,
+    FrontPageComponent,
+    NotFoundComponent,
+    LoginComponent,
+    ConfirmationComponent,
+    MyPageComponent
+
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSelectModule,
+    MatCheckboxModule,
+    MatInputModule,
+    MatGridListModule,
+    MatCardModule,
+    BrowserModule,
+    ReactiveFormsModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    FlexLayoutModule,
+    MatIconModule
+  ],
+  providers: [FurnitureService, LoginService],
+  bootstrap: [AppComponent]
+
+})
+export class AppModule { }
+</code></pre>
     </div>
 </div>
-<script src="js/libs/svg-pan-zoom.min.js"></script>
-<script src="js/svg-pan-zoom.controls.js"></script> 
-
 
 
 
@@ -426,37 +579,37 @@
        </div>
 
        <script>
-            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
-            var COMPODOC_CURRENT_PAGE_CONTEXT = 'overview';
-            var COMPODOC_CURRENT_PAGE_URL = 'overview.html';
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'module';
+            var COMPODOC_CURRENT_PAGE_URL = 'AppModule.html';
             var MAX_SEARCH_RESULTS = 15;
        </script>
 
-       <script src="./js/libs/custom-elements.min.js"></script>
-       <script src="./js/libs/lit-html.js"></script>
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
        <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
-       <script src="./js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
-       <script src="./js/menu-wc.js" defer></script>
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
 
-       <script src="./js/libs/bootstrap-native.js"></script>
+       <script src="../js/libs/bootstrap-native.js"></script>
 
-       <script src="./js/libs/es6-shim.min.js"></script>
-       <script src="./js/libs/EventDispatcher.js"></script>
-       <script src="./js/libs/promise.min.js"></script>
-       <script src="./js/libs/zepto.min.js"></script>
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
 
-       <script src="./js/compodoc.js"></script>
+       <script src="../js/compodoc.js"></script>
 
-       <script src="./js/tabs.js"></script>
-       <script src="./js/menu.js"></script>
-       <script src="./js/libs/clipboard.min.js"></script>
-       <script src="./js/libs/prism.js"></script>
-       <script src="./js/sourceCode.js"></script>
-          <script src="./js/search/search.js"></script>
-          <script src="./js/search/lunr.min.js"></script>
-          <script src="./js/search/search-lunr.js"></script>
-          <script src="./js/search/search_index.js"></script>
-       <script src="./js/lazy-load-graphs.js"></script>
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
 
 
     </body>

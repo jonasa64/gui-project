@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "compodoc": "npx compodoc -p gui-project/tsconfig.app.json",
-    "compodoc-serve": "compodoc -s gui-project/tsconfig.json"
+    "compodoc": "npx compodoc -p tsconfig.app.json",
+    "compodoc-serve": "compodoc -s tsconfig.json"
   },
   "private": true,
   "dependencies": {
