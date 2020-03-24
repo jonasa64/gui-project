@@ -1,4 +1,16 @@
+/**
+ * Service for furniture
+ * 
+ */
+
+
 export class FurnitureService {
+    /**
+     * methode to return furnitures
+     * 
+     * return array of objects
+     */
+
     getFurnitures() {
         return [
             {

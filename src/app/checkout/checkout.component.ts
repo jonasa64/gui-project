@@ -3,6 +3,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { CardValidator } from './cardValidtor';
 import { Router } from '@angular/router';
 
+/**
+ *  CheckoutComponent
+ */
 
 
 @Component({
