@@ -10,6 +10,7 @@ import { MatSelectModule } from '@angular/material/select'
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -34,6 +35,10 @@ import { MyPageComponent } from './my-page/my-page.component';
 import { LoginComponent } from './login/login.component';
 import { LoginService } from './services/login.service';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
+
+
+import { MatFormFieldModule } from '@angular/material/form-field'; 
+import { MatIconModule } from '@angular/material/icon'; 
 // import { AuthGuard } from './services/authguard.service';
 
 
@@ -72,7 +77,10 @@ import { ConfirmationComponent } from './confirmation/confirmation.component';
     MatCardModule,
     BrowserModule,
     ReactiveFormsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatFormFieldModule,
+    FlexLayoutModule,
+    MatIconModule
   ],
   providers: [FurnitureService, LoginService],
   bootstrap: [AppComponent]
